@@ -1,6 +1,6 @@
 name: Build and Push to GHCR
 
-于:
+on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
